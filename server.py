@@ -1,6 +1,7 @@
 import socket
  
 def Main():
+    # in case of muliple devices connected over same network change loacalhost to ip of the network
     host = "localhost"
     port = 80
      
